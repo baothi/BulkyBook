@@ -444,3 +444,5 @@ D:\asp.net\BulkyBook\BulkyBook\obj\Debug\net5.0\Razor\Areas\Customer\Views\Home\
 D:\asp.net\BulkyBook\BulkyBook\obj\Debug\net5.0\Razor\Areas\Customer\Views\Home\Privacy.cshtml.g.cs
 D:\asp.net\BulkyBook\BulkyBook\obj\Debug\net5.0\Razor\Areas\Customer\Views\_ViewImports.cshtml.g.cs
 D:\asp.net\BulkyBook\BulkyBook\obj\Debug\net5.0\Razor\Areas\Customer\Views\_ViewStart.cshtml.g.cs
+D:\asp.net\BulkyBook\BulkyBook\obj\Debug\net5.0\Razor\Areas\Admin\Views\_ViewImports.cshtml.g.cs
+D:\asp.net\BulkyBook\BulkyBook\obj\Debug\net5.0\Razor\Areas\Admin\Views\_ViewStart.cshtml.g.cs
