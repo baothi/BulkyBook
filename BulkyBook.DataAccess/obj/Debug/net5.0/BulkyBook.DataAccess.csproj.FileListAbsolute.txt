@@ -1,0 +1,17 @@
+D:\asp.net\BulkyBook\BulkyBook.DataAccess\bin\Debug\net5.0\BulkyBook.DataAccess.deps.json
+D:\asp.net\BulkyBook\BulkyBook.DataAccess\bin\Debug\net5.0\BulkyBook.DataAccess.dll
+D:\asp.net\BulkyBook\BulkyBook.DataAccess\bin\Debug\net5.0\ref\BulkyBook.DataAccess.dll
+D:\asp.net\BulkyBook\BulkyBook.DataAccess\bin\Debug\net5.0\BulkyBook.DataAccess.pdb
+D:\asp.net\BulkyBook\BulkyBook.DataAccess\obj\Debug\net5.0\BulkyBook.DataAccess.csprojAssemblyReference.cache
+D:\asp.net\BulkyBook\BulkyBook.DataAccess\obj\Debug\net5.0\BulkyBook.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\asp.net\BulkyBook\BulkyBook.DataAccess\obj\Debug\net5.0\BulkyBook.DataAccess.AssemblyInfoInputs.cache
+D:\asp.net\BulkyBook\BulkyBook.DataAccess\obj\Debug\net5.0\BulkyBook.DataAccess.AssemblyInfo.cs
+D:\asp.net\BulkyBook\BulkyBook.DataAccess\obj\Debug\net5.0\BulkyBook.DataAccess.csproj.CoreCompileInputs.cache
+D:\asp.net\BulkyBook\BulkyBook.DataAccess\obj\Debug\net5.0\BulkyBook.DataAccess.dll
+D:\asp.net\BulkyBook\BulkyBook.DataAccess\obj\Debug\net5.0\ref\BulkyBook.DataAccess.dll
+D:\asp.net\BulkyBook\BulkyBook.DataAccess\obj\Debug\net5.0\BulkyBook.DataAccess.pdb
+D:\asp.net\BulkyBook\BulkyBook.DataAccess\bin\Debug\net5.0\BulkyBook.Models.dll
+D:\asp.net\BulkyBook\BulkyBook.DataAccess\bin\Debug\net5.0\BulkyBook.Utility.dll
+D:\asp.net\BulkyBook\BulkyBook.DataAccess\bin\Debug\net5.0\BulkyBook.Models.pdb
+D:\asp.net\BulkyBook\BulkyBook.DataAccess\bin\Debug\net5.0\BulkyBook.Utility.pdb
+D:\asp.net\BulkyBook\BulkyBook.DataAccess\obj\Debug\net5.0\BulkyBook.DataAccess.csproj.CopyComplete
