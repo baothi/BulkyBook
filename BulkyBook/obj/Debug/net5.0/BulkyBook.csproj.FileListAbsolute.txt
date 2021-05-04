@@ -453,3 +453,7 @@ D:\asp.net\BulkyBook\BulkyBook\obj\Debug\net5.0\Razor\Views\Shared\_CreateAndBac
 D:\asp.net\BulkyBook\BulkyBook\obj\Debug\net5.0\Razor\Views\Shared\_EditAndBackToListButton.cshtml.g.cs
 D:\asp.net\BulkyBook\BulkyBook\obj\Debug\net5.0\Razor\Areas\Admin\Views\CoverType\Index.cshtml.g.cs
 D:\asp.net\BulkyBook\BulkyBook\obj\Debug\net5.0\Razor\Areas\Admin\Views\CoverType\Upsert.cshtml.g.cs
+D:\asp.net\BulkyBook\BulkyBook\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\asp.net\BulkyBook\BulkyBook\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+D:\asp.net\BulkyBook\BulkyBook\obj\Debug\net5.0\Razor\Areas\Admin\Views\Product\Index.cshtml.g.cs
+D:\asp.net\BulkyBook\BulkyBook\obj\Debug\net5.0\Razor\Areas\Admin\Views\Product\Upsert.cshtml.g.cs
