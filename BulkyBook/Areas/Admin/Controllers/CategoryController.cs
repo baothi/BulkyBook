@@ -81,9 +81,27 @@ namespace BulkyBook.Areas.Admin.Controllers
                 return NotFound();
             }
             return View(category);
+        }
 
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Upsert(Category category)
+        {
+            if (ModelState.IsValid)
+            {
+                if (category.Id == 0)
+                {
+                    _unitOfWork.Category.Add(category);
 
-            return View();
+                }
+                else
+                {
+                    _unitOfWork.Category.Update(category);
+                }
+                _unitOfWork.Save();
+                return RedirectToAction(nameof(Index));
+            }
+            return View(category);
         }
 
 
@@ -97,24 +115,24 @@ namespace BulkyBook.Areas.Admin.Controllers
         }
 
 
-        //[HttpDelete]
-        //public async Task<IActionResult> Delete(int id)
-        //{
-        //    var objFromDb = await _unitOfWork.Category.GetAsync(id);
-        //    if (objFromDb == null)
-        //    {
-        //        TempData["Error"] = "Error deleting Category";
-        //        return Json(new { success = false, message = "Error while deleting" });
-        //    }
+        [HttpDelete]
+        public IActionResult Delete(int id)
+        {
+            var objFromDb = _unitOfWork.Category.Get(id);
+            if (objFromDb == null)
+            {
+                TempData["Error"] = "Error deleting Category";
+                return Json(new { success = false, message = "Error while deleting" });
+            }
 
-        //    await _unitOfWork.Category.RemoveAsync(objFromDb);
-        //    _unitOfWork.Save();
+            _unitOfWork.Category.Remove(objFromDb);
+            _unitOfWork.Save();
 
-        //    TempData["Success"] = "Category successfully deleted";
-        //    return Json(new { success = true, message = "Delete Successful" });
+            //TempData["Success"] = "Category successfully deleted";
+            return Json(new { success = true, message = "Delete Successful" });
 
-        //}
-
-        #endregion
+            //}
+        }
+            #endregion
     }
 }

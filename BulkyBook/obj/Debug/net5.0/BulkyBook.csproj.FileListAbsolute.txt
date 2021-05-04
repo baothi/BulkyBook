@@ -448,3 +448,6 @@ D:\asp.net\BulkyBook\BulkyBook\obj\Debug\net5.0\BulkyBook.RazorTargetAssemblyInf
 D:\asp.net\BulkyBook\BulkyBook\obj\Debug\net5.0\BulkyBook.Views.pdb
 D:\asp.net\BulkyBook\BulkyBook\obj\Debug\net5.0\BulkyBook.csproj.CopyComplete
 D:\asp.net\BulkyBook\BulkyBook\obj\Debug\net5.0\BulkyBook.genruntimeconfig.cache
+D:\asp.net\BulkyBook\BulkyBook\obj\Debug\net5.0\Razor\Areas\Admin\Views\Category\Upsert.cshtml.g.cs
+D:\asp.net\BulkyBook\BulkyBook\obj\Debug\net5.0\Razor\Views\Shared\_CreateAndBackToListButton.cshtml.g.cs
+D:\asp.net\BulkyBook\BulkyBook\obj\Debug\net5.0\Razor\Views\Shared\_EditAndBackToListButton.cshtml.g.cs
