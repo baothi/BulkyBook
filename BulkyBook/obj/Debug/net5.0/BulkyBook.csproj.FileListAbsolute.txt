@@ -499,3 +499,4 @@ D:\asp.net\BulkyBook\BulkyBook\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Error
 D:\asp.net\BulkyBook\BulkyBook\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
 D:\asp.net\BulkyBook\BulkyBook\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
 D:\asp.net\BulkyBook\BulkyBook\obj\Debug\net5.0\Razor\Areas\Admin\Views\User\Index.cshtml.g.cs
+D:\asp.net\BulkyBook\BulkyBook\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.Google.dll

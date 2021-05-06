@@ -40,6 +40,7 @@ namespace BulkyBook
             services.AddIdentity<IdentityUser, IdentityRole>().AddDefaultTokenProviders()
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddSingleton<IEmailSender, EmailSender>();
+            services.Configure<EmailOptions>(Configuration);
             services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddControllersWithViews().AddRazorRuntimeCompilation();
             services.AddRazorPages();
@@ -48,6 +49,12 @@ namespace BulkyBook
                 options.LoginPath = $"/Identity/Account/Login";
                 options.LogoutPath = $"/Identity/Account/Logout";
                 options.AccessDeniedPath = $"/Identity/Account/AccessDenied";
+            });
+            services.AddAuthentication().AddGoogle(options =>
+            {
+                options.ClientId = "92314209070-iqaro7iagg4ignbbfbdnqkpm8q7lboij.apps.googleusercontent.com";
+                options.ClientSecret = "88mK4Ej05ZUeZ9Y9otbR8PSA";
+
             });
         }
 

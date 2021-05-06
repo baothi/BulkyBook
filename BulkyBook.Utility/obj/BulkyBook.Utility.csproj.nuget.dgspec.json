@@ -73,6 +73,10 @@
             "Microsoft.Extensions.Identity.Stores": {
               "target": "Package",
               "version": "[5.0.5, )"
+            },
+            "SendGrid": {
+              "target": "Package",
+              "version": "[9.23.1, )"
             }
           },
           "imports": [
