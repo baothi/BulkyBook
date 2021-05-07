@@ -500,3 +500,6 @@ D:\asp.net\BulkyBook\BulkyBook\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_Vali
 D:\asp.net\BulkyBook\BulkyBook\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
 D:\asp.net\BulkyBook\BulkyBook\obj\Debug\net5.0\Razor\Areas\Admin\Views\User\Index.cshtml.g.cs
 D:\asp.net\BulkyBook\BulkyBook\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.Google.dll
+D:\asp.net\BulkyBook\BulkyBook\bin\Debug\net5.0\SendGrid.dll
+D:\asp.net\BulkyBook\BulkyBook\bin\Debug\net5.0\StarkbankEcdsa.dll
+D:\asp.net\BulkyBook\BulkyBook\obj\Debug\net5.0\Razor\Areas\Customer\Views\Home\Details.cshtml.g.cs
