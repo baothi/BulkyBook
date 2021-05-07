@@ -6,10 +6,9 @@ using System.Threading.Tasks;
 
 namespace BulkyBook.Utility
 {
-    public class EmailOptions
+    public class StripeSettings
     {
-        public string SendGridKey { get; set; }
-        public string SendGridUser { get; set; }
+        public string SecretKey { get; set; }
+        public string PublishableKey { get; set; }
     }
-    
 }

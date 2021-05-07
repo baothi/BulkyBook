@@ -20,7 +20,7 @@ namespace BulkyBook.Utility
         }
         public Task SendEmailAsync(string email, string subject, string htmlMessage)
         {
-            throw new NotImplementedException();
+            return Execute(emailOptions.SendGridKey, subject, htmlMessage, email);
         }
         private Task Execute(string sendGridKEy, string subject, string message, string email)
         {
